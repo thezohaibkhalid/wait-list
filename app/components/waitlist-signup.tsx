@@ -19,7 +19,7 @@ export function WaitlistSignup() {
   }, []);
 
   const handleSuccess = (count: number) => {
-    setWaitlistCount(count + 100);
+    setWaitlistCount(count);
   };
 
   return (
@@ -44,7 +44,7 @@ export function WaitlistSignup() {
             <div className="flex -space-x-2 mr-4">
               <Avatar initials="ZK" index={0} />
               <Avatar initials="BA" index={1} />
-              <Avatar initials="YK" index={2} />
+              <Avatar initials="AS" index={2} />
             </div>
             <p className="text-white font-semibold">
               {waitlistCount}+ people on the waitlist
