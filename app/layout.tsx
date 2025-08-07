@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: "ChatMapper Waitlist",
   description: "By Bitbuilder Productions",
   generator: "bitbuilders.tech",
+  icons: {
+    icon: "/icon3.png",
+  },
 };
 
 export default function RootLayout({
@@ -17,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* <link rel="icon" href="/icon3.png" /> */}
         <style>{`
 html {
   font-family: ${GeistSans.style.fontFamily};
