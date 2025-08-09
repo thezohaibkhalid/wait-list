@@ -91,7 +91,7 @@ export function EmailTemplate({ email }: EmailTemplateProps) {
               is ready for launch. Early access members will receive priority installation instructions.
             </p>
             <p style="color: #666666; font-size: 14px; margin: 0; font-style: italic;">
-              Estimated launch: 12 Auguest 2025
+              Estimated launch: 13-14 Auguest 2025
             </p>
           </div>
 
